@@ -51,15 +51,22 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-h1 {
+.header__titulo {
     font-size: var(--titulo);
     font-weight: 700;
 }
-h3 {
+.footer__subtitulo {
     font-size: var(--subtitulo);
     font-weight: 300;
 }
 footer{
     text-align: center;
 }
+
+/* *********** */
+/* CALCULADORA */
+/* *********** */
+
+
+
 
