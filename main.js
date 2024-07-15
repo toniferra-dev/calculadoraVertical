@@ -2,6 +2,7 @@
 // si la pantalla está en vertical, se queda en index.html
 // si la pantalla está en horizontal, se va a calculadora.html
 
+// SOLO FUNCIONA EN MOVILES
 // detectar la rotación de la pantalla del movil
 window.addEventListener("orientationchange", function () {
     // si la pantalla está en vertical, se queda en index.html
