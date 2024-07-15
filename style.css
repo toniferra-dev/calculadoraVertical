@@ -59,4 +59,7 @@ h3 {
     font-size: var(--subtitulo);
     font-weight: 300;
 }
+footer{
+    text-align: center;
+}
 

@@ -15,17 +15,7 @@ window.addEventListener("orientationchange", function () {
     }
 });
 
-// variable que sepa en todo momento la orientación de la pantalla
 
-setTimeout(function () {
-    let orientacionInicial = screen.orientation.type;
-
-    setInterval(function () {
-        if (screen.orientation.type === orientacionInicial) {
-            //Bloqueo de orientación
-        } else {
-            // si la pantalla está en vertical, se queda en index.html
-            orientacionInicial = screen.orientation.type;
-        }
-    }, 2000);
-}, 2000);
+//  ****************
+// *  CALCULADORA *
+// ****************
