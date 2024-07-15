@@ -1,0 +1,62 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+/* FUENTES */
+.karantina-light {
+    font-family: "Karantina", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.karantina-regular {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.karantina-bold {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* VARIABLES */
+:root {
+    --color-grisOscuro: #323232;
+    --color-grisMedio: #939393;
+    --color-grisLight: #d4d4d4;
+
+    --titulo: 4.38rem;
+    --subtitulo: 3.13rem
+}
+
+/* HTML y body */
+html {
+    font-size: 16px;
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+body {
+    height: 100dvh;
+    background-color: var(--color-grisOscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    font-size: var(--titulo);
+    font-weight: 700;
+}
+h3 {
+    font-size: var(--subtitulo);
+    font-weight: 300;
+}
+
