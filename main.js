@@ -14,3 +14,17 @@ window.addEventListener("orientationchange", function () {
         window.location.href = "calculadora.html";
     }
 });
+
+// variable que sepa en todo momento la orientación de la pantalla
+let orientacion = screen.orientation.type;
+
+setInterval(function() {
+    if (screen.orientation.type === orientacion) {
+        // bloqueo activo
+        document.getElementById("mensaje").style.display = "block";
+
+    } else {
+        // bloqueo inactivo
+        document.getElementById("mensaje").style.display = "none";
+    }
+}, 1000);
