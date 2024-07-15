@@ -16,15 +16,16 @@ window.addEventListener("orientationchange", function () {
 });
 
 // variable que sepa en todo momento la orientación de la pantalla
-let orientacion = screen.orientation.type;
 
-setInterval(function() {
-    if (screen.orientation.type === orientacion) {
-        // bloqueo activo
-        document.getElementById("mensaje").style.display = "block";
+setTimeout(function () {
+    let orientacionInicial = screen.orientation.type;
 
-    } else {
-        // bloqueo inactivo
-        document.getElementById("mensaje").style.display = "none";
-    }
-}, 1000);
+    setInterval(function () {
+        if (screen.orientation.type === orientacionInicial) {
+            //Bloqueo de orientación
+        } else {
+            // si la pantalla está en vertical, se queda en index.html
+            orientacionInicial = screen.orientation.type;
+        }
+    }, 2000);
+}, 2000);
