@@ -21,7 +21,6 @@ window.addEventListener("orientationchange", function () {
 // Array de resultados
 let resultados = [];
 
-
 // recoger los botones en contantes
 const btnSumar = document.getElementById("btnsumar");
 const btnRestar = document.getElementById("btnrestar");
@@ -185,6 +184,7 @@ btnDecimal.addEventListener("click", function () {
 
 // boton de resultados
 btnIgual.addEventListener("click", function () {
+    // añadir la operación al array de resultados
     resultados.push(panelresultados.value);
     // evaluar el panel de resultados
     panelresultados.value = eval(panelresultados.value);
