@@ -71,5 +71,22 @@ footer{
     text-align: right;
 }
 
+/* GRID 7 x 4 */
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) repeat(2, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    width: 100dvw;
+    height: 100dvh;
+    padding: 1rem;
+    background-color: var(--color-grisOscuro);
 
+    & .panelresultados{
+        grid-column: 1 / span 5;
+        grid-row: 1 / span 1;
+        padding: 0.2rem;
+        background-color: var(--color-grisMedio);
+    }
+}
 

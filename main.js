@@ -6,6 +6,7 @@
 // detectar la rotación de la pantalla del movil
 window.addEventListener("orientationchange", function () {
     // si la pantalla está en vertical, se queda en index.html
+    // API screen.orientation.type que le da desde el móvil
     if (screen.orientation.type === "portrait-primary") {
         window.location.href = "index.html";
     }
@@ -17,7 +18,7 @@ window.addEventListener("orientationchange", function () {
 
 //  ****************
 // *  CALCULADORA *
-// ****************
+// *****************
 // Array de resultados
 let resultados = [];
 
