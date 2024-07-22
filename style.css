@@ -89,7 +89,7 @@ footer{
     & .panelresultados{
         grid-column: 1 / span 6;
         grid-row: 1 / span 1;
-        padding: 0.2rem;
+        padding: 1rem;
         background-color: var(--color-grisMedio);
     }
     & .btnigual{
